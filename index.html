@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleCreator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="left-section">
+            <div class="header">
+                <h1>STYLECREATOR</h1>
+            </div>
+
+            <div class="grid-container" id="productGrid">
+                </div>
+
+            <div class="category-bar" id="categoryBar">
+                </div>
+        </div>
+
+        <div class="right-section">
+            <button class="nav-btn prev-btn" id="prevBtn">←</button>
+            <button class="nav-btn next-btn" id="nextBtn">→</button>
+
+            <div class="preview-card">
+                <img id="bgImg" src="" class="bg-layer" alt="Background">
+                <img id="baseModelImg" src="" class="model-layer" alt="Base Model">
+                <div id="selectedLayers"></div>
+            </div>
+
+            <div class="bg-selector" id="bgSelector">
+                </div>
+
+            <div class="checkout-bar">
+                <div>
+                    <p class="label">Totaal</p>
+                    <p class="total-price" id="totalPrice">€0.00</p>
+                </div>
+                <button class="buy-btn">Koop Outfit</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
