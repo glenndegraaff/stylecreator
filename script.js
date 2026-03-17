@@ -13,7 +13,7 @@ const backgrounds = [
 
 const products = [
     { id: 101, name: 'AGV Pista', type: 'Helmen', price: 1800, thumbnail: 'images/h1_thumbnail.png', schuinImg: 'images/h1.png', frontImg: 'images/h1_voor.png', backImg: 'images/h1_achter.png', offsetX: -8, offsetY: -30, scale: 0.9 },
-    { id: 1, name: 'REVIT Jacka', type: 'jassen', price: 299, thumbnail: 'images/j1_thumbnail.png', schuinImg: 'images/j1.png', frontImg: 'images/j1_voor.png', backImg: 'images/j1_achter.png', offsetX: 15, offsetY: 0, scale: 1 },
+    { id: 1, name: 'REVIT Jacka', type: 'jassen', price: 299, thumbnail: 'images/j1_thumbnail.png', schuinImg: 'images/j1.png', frontImg: 'images/j1_voor.png', backImg: 'images/j1_achter.png', offsetX: 15, offsetY: -10, scale: 1 },
     { id: 3, name: 'Alpinestars Leren Broek', type: 'broeken', price: 180, thumbnail: 'images/p1_thumbnail.png', schuinImg: 'images/p1.png', frontImg: 'images/p1_voor.png', backImg: 'images/p1_achter.png', offsetX: 0, offsetY: 0, scale: 1 },
     { id: 201, name: 'Racing Boots', type: 'schoenen', price: 250, thumbnail: 'images/boots-thumb.png', schuinImg: 'https://placehold.co/400x600/222/fff?text=BOOTS_SCHUIN', frontImg: 'images/boots_front.png', backImg: 'images/boots_back.png', offsetX: 0, offsetY: 250, scale: 0.3 },
     { id: 301, name: 'REVIT Handschoenen', type: 'handschoenen', price: 99, thumbnail: 'images/g1_thumbnail.png', schuinImg: 'images/g2.png', frontImg: 'images/g2_voor.png', backImg: 'images/g2_achter.png', offsetX: 0, offsetY: 0, scale: 0.95 },
